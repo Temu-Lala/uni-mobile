@@ -15,7 +15,6 @@ export default function Home() {
         tabBarInactiveTintColor: Colors.LIGHT_GRAY
       }}
     >
-      <Tab.Screen name="Public" component={Chat} />
       <Tab.Screen name="Notice" component={Notice} />
       <Tab.Screen name="News" component={News} />
       <Tab.Screen name="AI" component={AI} />
